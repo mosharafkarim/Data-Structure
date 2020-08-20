@@ -1,0 +1,75 @@
+1.What do you mean by data structure ?
+
+  =>A data structure is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
+
+2.What are the some application of data structure?
+
+  =>There are some application of data structure : Application of Linked list , Application of Queue, Application of Stack, Application of Dqueue, Application of Trees.
+
+3.What are the advantage of a Linked list over an array?
+
+  =>A. Less memory consumption as only that many nodes are consumed as many values are to be stored.
+     
+    B.Easy in deletions,insertions.
+
+    C.Dynamic Size : - LinkedList can grow and shrink at run time.
+    
+    D. O(1) Insertion and deletion operation.
+
+
+
+5.What is the use of a doubly linked list when compare to that of  a singly linked list?
+
+  =>Singly linked list allows traversal elements only in one way. Doubly linked list allows element two way traversal. On other hand doubly linked list can be used to implement stacks as well as heaps and binary trees.
+
+6.What is the differnce between stack and an array?
+
+  => A stack  is a liner data structure represented by a sequential collection of elements in fixed order.
+     An array is a collection of homogeneuos data values which is identified by index value.
+     The element of adding and deleting an element is happend by following LIFO rules(Element is adding in last of stack and Element is deleting in first of stack).
+     In case of array,it  is a random access operation and everything goes down to the begining of the array.Insertion and Deletion takes place in any position.
+
+7.What are the minimum number of queues needed to implement the priority queue?
+
+  =>The minimum number of queues are2 queues. One is used for storing data and another is used for priorities. Priority queues are applied using 2-D array where it has two rows one for element and second for priority ,so minimum numbers of queues are needed to implement are two.
+
+8.What are the differnet types of traversing a tree?
+
+  =>Unlike linear data structures (Array, Linked List, Queues, Stacks, etc) which have only one logical way to traverse them, trees can be traversed in different ways. 
+    (a) Inorder  (Left, Root, Right) 
+    (b) Preorder (Root, Left, Right) 
+    (c) Postorder (Left, Right, Root) 
+
+9.Why it is said that searching a node in a binary serach tree is efficient than that of a simple binary tree?
+
+  =>It supports three main operations: searching of elements, insertion of elements, and deletion of elements. 
+    Binary Search Tree allows for fast retrieval of elements stored in the tree as each node key is thoroughly compared with the root node, which discards half of the tree.
+
+10.What are the application of graph data structure?
+
+  =>In computer science, graph is used to represent networks of communication, data organization, computational devices etc. Physics and Chemistry: Graph theory is also used to study molecules in chemistry and physics. Social Science: Graph theory is also widely used in sociology.
+
+11.Can we apply Binary search algorithm to a sorted Linked list?
+
+  =>Yes, Binary search is possible on the linked list if the list is ordered and you know the count of elements in list. But While sorting the list, you can access a single element at a time through a pointer to that node i.e. either a previous node or next node.
+
+12.When can you tell that a Memory leak will occur?
+
+  =>A memory leak is a type of resource leak that occurs when a computer program incorrectly manages memory allocations in a way that memory which is no longer needed is not released. A memory leak may also happen when an object is stored in memory but cannot be accessed by the running code.
+
+13.How will you check if a given binary tree is binary search tree or not?
+
+  =>A.If a node is a left child, then its key and the keys of the nodes in its right subtree are less than its parent's key.
+    B.If a node is a right child, then its key and the keys of the nodes in its left subtree are greater than its parent's key.
+
+14.Which data structure is ideal to perform recursion operation and why?
+
+  =>Stack. Because of its LIFO (Last In First Out) property it remembers its 'caller' so knows whom to return when the function has to return. Recursion makes use of system stack for storing the return addresses of the function calls. Every recursive function has its equivalent iterative (non-recursive) function.
+
+15.What are the some important application of stack?
+
+  =>The stack can be used to convert some infix expression into its postfix equivalent, or prefix equivalent. These postfix or prefix notations are used in computers to express some expressions.
+
+
+
+
